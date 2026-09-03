@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" shape-rendering="crispEdges">
+  <defs>
+    <linearGradient id="dirtA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a5a32"/>
+      <stop offset="1" stop-color="#5a3818"/>
+    </linearGradient>
+    <linearGradient id="dirtB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a06a3a"/>
+      <stop offset="1" stop-color="#6e4624"/>
+    </linearGradient>
+    <linearGradient id="grassT" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7ed25a"/>
+      <stop offset="1" stop-color="#4ea83a"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" fill="#7ec6ff"/>
+  <rect y="76" width="120" height="44" fill="#a8d8a0"/>
+  <polygon points="60,18 104,38 60,58 16,38" fill="url(#grassT)" stroke="#2f6a22" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="16,38 60,58 60,100 16,80" fill="url(#dirtA)" stroke="#3a200d" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="104,38 60,58 60,100 104,80" fill="url(#dirtB)" stroke="#3a200d" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="16,38 60,58 60,66 16,46" fill="#3e8b2e" stroke="#2f6a22" stroke-width="1.5" stroke-linejoin="round"/>
+  <polygon points="104,38 60,58 60,66 104,46" fill="#357a26" stroke="#2f6a22" stroke-width="1.5" stroke-linejoin="round"/>
+  <rect x="22" y="58" width="6" height="6" fill="#6e4523" opacity="0.85"/>
+  <rect x="38" y="72" width="6" height="6" fill="#6e4523" opacity="0.85"/>
+  <rect x="76" y="60" width="6" height="6" fill="#52301a" opacity="0.85"/>
+  <rect x="86" y="76" width="6" height="6" fill="#52301a" opacity="0.85"/>
+</svg>

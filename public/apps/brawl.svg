@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <radialGradient id="bsBg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#ff8a4a"/>
+      <stop offset="60%" stop-color="#e2331c"/>
+      <stop offset="100%" stop-color="#7a0808"/>
+    </radialGradient>
+    <linearGradient id="bsStar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe05a"/>
+      <stop offset="55%" stop-color="#ffb02a"/>
+      <stop offset="100%" stop-color="#d97a00"/>
+    </linearGradient>
+    <radialGradient id="bsGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff7c8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#fff7c8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="120" height="120" fill="url(#bsBg)"/>
+  <circle cx="60" cy="60" r="50" fill="url(#bsGlow)"/>
+  <path d="M60 12 L72.5 42 L105 45 L80 66 L88 100 L60 82 L32 100 L40 66 L15 45 L47.5 42 Z" fill="#1f0a04" stroke="#1f0a04" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M60 18 L71 44 L100 47 L78 65 L86 96 L60 80 L34 96 L42 65 L20 47 L49 44 Z" fill="url(#bsStar)" stroke="#7a3d00" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M60 18 L71 44 L78 44 L60 25 Z" fill="#fff3a0" opacity="0.9"/>
+  <circle cx="100" cy="22" r="3" fill="#fff7c8"/>
+  <circle cx="18" cy="22" r="2.5" fill="#fff7c8"/>
+  <circle cx="105" cy="78" r="2.2" fill="#fff7c8"/>
+</svg>
