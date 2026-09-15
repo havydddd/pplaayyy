@@ -3687,3 +3687,6 @@ def main():
 if __name__ == "__main__":
     main()
 
+@router.message(F.animation) 
+async def get_anim_id(message: Message): 
+await message.answer(f"{message.animation.file_id}", parse_mode="Markdown")
